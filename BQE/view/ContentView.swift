@@ -18,7 +18,7 @@ struct ContentView: View {
         NavigationView {
             VStack(spacing: 16) {
                 TextField("Title", text: $title)
-                    .accessibilityIdentifier("titleField")
+                    .accessibilityIdentifier("titleField") // i use this to access the specific view in testing 
                     .textFieldStyle(.roundedBorder)
             
 
