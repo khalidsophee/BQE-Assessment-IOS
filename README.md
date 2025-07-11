@@ -52,11 +52,11 @@ A lightweight and user-friendly To-Do list iOS application built using **SwiftUI
    **OR** press **⌘ + U**  
 3. To run a specific test:
    - Open the **Test Navigator (⌘ + 6)**
-   - Click the ▶️ next to the desired test or test class
+   - Click run next to the desired test or test class
 
 ---
 
-## 🧪 Sample Test Tags (AccessibilityIdentifiers)
+##Sample Test Tags (AccessibilityIdentifiers)
 
 All major UI elements have identifiers for testing:
 
