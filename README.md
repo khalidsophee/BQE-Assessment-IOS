@@ -61,11 +61,10 @@ A lightweight and user-friendly To-Do list iOS application built using **SwiftUI
 All major UI elements have identifiers for testing:
 
 - `titleField` – Text field for entering title
-- `descriptionField` – Text field for entering description
-- `addButton` – Button to add a task
-- `checkbox_{id}` – Checkbox for task toggle
-- `deleteButton_{id}` – Delete button for task
-- `taskRow_{id}` – Full row view of a task
+- `descField` – Text field for entering description
+- `addTodoButton` – Button to add a task
+- `toggle_{id}` – Checkbox for task toggle
+- `delete_{id}` – Delete button for task
 
 ---
 
