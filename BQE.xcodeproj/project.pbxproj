@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		E9C5930A2E210A4C0091B343 /* ViewInspector in Frameworks */ = {isa = PBXBuildFile; productRef = E9C593092E210A4C0091B343 /* ViewInspector */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		E9C592E12E2103140091B343 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -29,9 +33,33 @@
 		E9C592EA2E2103140091B343 /* BQEUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BQEUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		E9C593072E2109DC0091B343 /* Exceptions for "BQE" folder in "BQE" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				.swift,
+			);
+			target = E9C592D12E21030C0091B343 /* BQE */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+		E9C593082E2109DC0091B343 /* Exceptions for "BQE" folder in "Compile Sources" phase from "BQE" target */ = {
+			isa = PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet;
+			buildPhase = E9C592CE2E21030C0091B343 /* Sources */;
+			membershipExceptions = (
+				.swift,
+			);
+		};
+/* End PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		E9C592D42E21030C0091B343 /* BQE */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				E9C593072E2109DC0091B343 /* Exceptions for "BQE" folder in "BQE" target */,
+				E9C593082E2109DC0091B343 /* Exceptions for "BQE" folder in "Compile Sources" phase from "BQE" target */,
+			);
 			path = BQE;
 			sourceTree = "<group>";
 		};
@@ -66,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9C5930A2E210A4C0091B343 /* ViewInspector in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -158,6 +187,7 @@
 			);
 			name = BQEUITests;
 			packageProductDependencies = (
+				E9C593092E210A4C0091B343 /* ViewInspector */,
 			);
 			productName = BQEUITests;
 			productReference = E9C592EA2E2103140091B343 /* BQEUITests.xctest */;
@@ -195,6 +225,9 @@
 			);
 			mainGroup = E9C592C92E21030C0091B343;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				E9C593032E2109C30091B343 /* XCRemoteSwiftPackageReference "ViewInspector" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = E9C592D32E21030C0091B343 /* Products */;
 			projectDirPath = "";
@@ -583,6 +616,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E9C593032E2109C30091B343 /* XCRemoteSwiftPackageReference "ViewInspector" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/nalexn/ViewInspector";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.10.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E9C593092E210A4C0091B343 /* ViewInspector */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E9C593032E2109C30091B343 /* XCRemoteSwiftPackageReference "ViewInspector" */;
+			productName = ViewInspector;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = E9C592CA2E21030C0091B343 /* Project object */;
 }

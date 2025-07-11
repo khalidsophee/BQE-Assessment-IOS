@@ -7,12 +7,6 @@
 
 import SwiftUI
 
-struct TodoItem: Identifiable, Hashable {
-    let id: Int
-    var title: String
-    var description: String
-    var isDone: Bool = false
-}
 
 struct ContentView: View {
     @State private var todoList: [TodoItem] = []
